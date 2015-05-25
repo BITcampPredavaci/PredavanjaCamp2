@@ -1,5 +1,10 @@
 package ba.bitcamp.lectures.loops;
-
+/**
+ * Demo prekida petlja kada dodatni uslov dozvoli.
+ * Npr. prekidamo sumiranje zato sto suma nece moci stati u byte.
+ * @author emir
+ *
+ */
 public class LimitiranaSuma {
 	public static void main(String[] args) {
 		int brojeva = 100;
