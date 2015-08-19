@@ -1,0 +1,11 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+#intro-paragraph {
+  color: #f0f;
+}
+
+.smaller-text {
+  font-size: 12px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <title>Naša prva stranica</title>
+</head>
+<body>
+  <p id="intro-paragraph">Hello, world!</p>
+
+  <p>
+    This is my first page that I have created today.
+    So, a "<em>good morning</em>" may be more appropriate.
+  </p>
+
+  <p class="smaller-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis ac
+    justo sit amet interdum. Donec consequat porttitor egestas. Morbi elementum
+    elit vel elit accumsan, ac faucibus elit ultrices. Maecenas iaculis eros eu
+    lacus aliquet, rhoncus pellentesque felis suscipit. Integer in bibendum
+    urna. In vitae porta lectus. Quisque eu nunc vitae lorem fermentum aliquam
+    a sed lectus.
+  </p>
+
+  <form action="" method="get">
+    <div>
+      <label for="full_name">Full Name:</label>
+      <input id="full_name" name="full_name" type="text">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email">
+    </div>
+
+    <div>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="ba">Bosnia and Herzegovina</option>
+        <option value="hr">Croatia</option>
+        <option value="rs">Serbia</option>
+        <option value="me" selected>Montenegro</option>
+        <option value="si">Slovenia</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Sex:</legend>
+
+      <input id="sex_f" name="sex" type="radio" value="f">
+      <label for="sex_f">Female</label>
+      <br>
+
+      <input id="sex_m" name="sex" type="radio" value="m">
+      <label for="sex_m">Male</label>
+      <br>
+
+      <input id="sex_o" name="sex" type="radio" value="o">
+      <label for="sex_o">Other</label>
+    </fieldset>
+
+    <div>
+      <input id="tos_accepted" name="tos_accepted" type="checkbox">
+      <label for="tos_accepted">Pročita-la/o sam uslove korištenja i slažem se s njima</label>
+    </div>
+
+    <div>
+      <button>
+        Registruj se
+      </button>
+    </div>
+  </form>
+</body>
+</html>
