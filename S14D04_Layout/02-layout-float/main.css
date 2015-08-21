@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.primary-navigation {
+  float: left;
+  width: 20%;
+  border-right: 1px solid blue;
+  background-color: #C5EAC5;
+}
+
+.main {
+  float: left;
+  width: 40%;
+  padding-left: 10px;
+}
+
+.navigation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.primary-navigation a {
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 40%;
+  float: left;
+}

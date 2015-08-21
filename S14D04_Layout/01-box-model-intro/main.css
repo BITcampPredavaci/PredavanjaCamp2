@@ -1,0 +1,36 @@
+.block-example {
+  font-size: 35px;
+
+  width: 50%;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px 0 30px 0;
+
+  overflow: hidden;
+  background-color: #CCF6FF;
+
+  /* box-sizing određuje efekat width/height atributa:
+   * - content-box (default) kaže da width/height određuju dimenziju sadržaja
+   *   elementa.
+   * - border-box kaže da width/height određuju dimenziju boxa koji uključuje
+   *   sadržaj elementa, padding i border. Na ovaj način se elementi ponašaju
+   *   puno predvidivije.  */
+  box-sizing: border-box;
+}
+
+em {
+  border: 1px solid red;
+  /* width i height atributi inline elemenata se ignorišu */
+  width: 100px;
+  height: 100px;
+  /* vertikalni padding kod inline elemenata samo vizuelno utiče na poziciju
+   * bordera, nema efekta na poziciju ili dimenzija elementa */
+  padding: 70px;
+  /* vertikalna margina se potpuno ignoriše kod inline elemenata */
+  margin: 50px;
+}
+
+.html5-logo {
+  width: 50px;
+}
