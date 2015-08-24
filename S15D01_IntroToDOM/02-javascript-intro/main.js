@@ -11,11 +11,13 @@ function showMessage(message) {
   // selektujemo sve prethodne poruke i brišemo ih
   var previousMessages = body.getElementsByClassName("message");
   for (var i = 0; i < previousMessages.length; i++) {
-    previousMessages[i].remove();
+    body.removeChild(previousMessages[i]);
 
-    // Alternativni (komplikovaniji) način za brisanje elementa koji se još
-    // uvijek može naći u divljini:
-    // body.removeChild(previousMessages[i]);
+    // Alternativni (jednostavniji) način za brisanje elementa koji je u
+    // eksperimentalnoj fazi (i nije podržan u svim browserima), te se ne bi
+    // trebao koristiti u produkciji:
+    //
+    // previousMessages[i].remove();
   }
 
   // kreiramo novi <p> element te mu dajemo klasu i tekst
