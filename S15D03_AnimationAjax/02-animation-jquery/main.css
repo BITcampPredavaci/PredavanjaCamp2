@@ -1,0 +1,13 @@
+.text-container {
+  width: 400px;
+  height: 100px;
+
+  padding: 0 15px;
+  margin: 0 auto;
+
+  border: 1px solid black;
+  overflow: hidden;
+
+  cursor: pointer;
+  opacity: 0.5;
+}
